@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="#14c2e1"
+        android:orientation="horizontal"
+        android:weightSum="100">
+
+
+        <ImageView
+            android:id="@+id/imgList"
+            android:layout_marginTop="2dp"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/imglist" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:layout_weight="49"
+            android:text="Của Tui"
+            android:gravity="center"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:textColor="#ffffff"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:layout_weight="49"
+            android:text="Online"
+            android:gravity="center"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:textColor="#ffffff"/>
+
+        <ImageView
+            android:id="@+id/imgSearch"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="8dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/iconsearch" />
+    </LinearLayout>
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/tabList"
+        android:layout_width="match_parent"
+        android:layout_height="33dp"
+        android:layout_marginTop="0dp"
+        android:background="#ffffff"
+        app:tabIndicatorColor="#14c2e1"
+        app:tabMode="fixed"
+        app:tabSelectedTextColor="#14c2e1">
+
+    </android.support.design.widget.TabLayout>
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vp1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </android.support.v4.view.ViewPager>
+
+</LinearLayout>

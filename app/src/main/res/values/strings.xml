@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">NhacCuaTui</string>
+    <array name="pics_casi">
+        <item>@drawable/buonkhongem</item>
+        <item>@drawable/duyenminhlo</item>
+        <item>@drawable/dungquentenanh</item>
+        <item>@drawable/tancungnoinho</item>
+        <item>@drawable/sainguoisaithoidiem</item>
+        <item>@drawable/ucoanhday</item>
+        <item>@drawable/dungnhuthoiquen</item>
+        <item>@drawable/lothuongmotnguoi</item>
+        <item>@drawable/suytnuathi</item>
+        <item>@drawable/roibo</item>
+    </array>
+</resources>
